@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://ani-char.netlify.com/sitemap.xml

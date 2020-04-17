@@ -2,7 +2,8 @@
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
         // the link to your model provided by Teachable Machine export panel
-        const URL = "https://teachablemachine.withgoogle.com/models/oXb149Ke5/";
+        const URL = "https://teachablemachine.withgoogle.com/models/vREOa4J5k/";
+
 
         let model, webcam, labelContainer, maxPredictions;
 
@@ -63,15 +64,10 @@
                 labelContainer.innerHTML = `
                     <h2>닮은 캐릭터는 '웅이' 입니다!</h2>
                 `
-            } else if (big_obj.className == "요괴") {
+            } else if (big_obj.className == "이간질요괴") {
                 char.src = "iganzil.jpg"
                 labelContainer.innerHTML = `
                     <h2>닮은 캐릭터는 '이간질 요괴' 입니다!</h2>
-                `
-            } else if (big_obj.className == "토마스") {
-                char.src = "thomas.png"
-                labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '토마스' 입니다!</h2>
                 `
             } else if (big_obj.className == "펭수") {
                 char.src = "peng.png"
@@ -83,7 +79,60 @@
                 labelContainer.innerHTML = `
                     <h2>닮은 캐릭터는 '하울' 입니다!</h2>
                 `
+            } else if (big_obj.className == "고양이보은 고양이") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '고양이보은 고양이' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "맹구") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '맹구' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "뮬란") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '뮬란' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "백설공주") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '백설공주' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "세일러문 우라노스") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '세일러문 우라노스' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "인어공주") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '인어공주' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "주디") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '주디' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "네오") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '네오' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "버즈") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '버즈' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "프로도") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '프로도' 입니다!</h2>
+                    `
+            } else if (big_obj.className == "피카츄") {
+                char.src = "howl.JPG"
+                labelContainer.innerHTML = `
+                        <h2>닮은 캐릭터는 '피카츄' 입니다!</h2>
+                    `
             }
-
-
         }

@@ -206,11 +206,11 @@ body {
 }
 
 .char {
-    max-width: 40%;
+    max-height: 200px;
 }
 
 .file-upload-image {
-    max-width: 40%;
+    max-height: 200px;
 }
 
 .thumbnali {

@@ -144,7 +144,10 @@ body {
     line-height: 1.67;
     text-align: center;
     color: #35465d;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitle {
@@ -206,4 +209,11 @@ body {
     max-width: 40%;
 }
 
-.file-upload-image {}
+.file-upload-image {
+    max-width: 40%;
+}
+
+.thumbnali {
+    width: 3.5rem;
+    height: 3.5rem;
+}

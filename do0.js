@@ -94,7 +94,7 @@
             } else if (big_obj.className == "이간질요괴") {
                 char.src = "iganzil.jpg"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 <span class="important_char">'이간질 </span>요괴' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'이간질 요괴'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>

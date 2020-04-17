@@ -264,6 +264,7 @@ body {
 
 #label-container>h2 {
     margin: 0;
+    margin-bottom: 5px;
     display: inline-block;
     background-color: #FFF7E4;
     padding: 4px 6px;

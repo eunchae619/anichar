@@ -50,7 +50,7 @@
             if (big_obj.className == "꼬부기") {
                 char.src = "ggobuk.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '꼬부기' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'꼬부기'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -61,7 +61,7 @@
             } else if (big_obj.className == "마조리카") {
                 char.src = "majorika.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '마조리카' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'마조리카'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -72,7 +72,7 @@
             } else if (big_obj.className == "심바") {
                 char.src = "simba.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '심바' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'심바'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -83,7 +83,7 @@
             } else if (big_obj.className == "웅이") {
                 char.src = "ung.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '웅이' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'웅이'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -94,7 +94,7 @@
             } else if (big_obj.className == "이간질요괴") {
                 char.src = "iganzil.jpg"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '이간질 요괴' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'이간질 </span>요괴' 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -105,7 +105,7 @@
             } else if (big_obj.className == "펭수") {
                 char.src = "peng.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '펭수' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'펭수'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -116,7 +116,7 @@
             } else if (big_obj.className == "하울") {
                 char.src = "howl.JPG"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '하울' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'하울'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -127,7 +127,7 @@
             } else if (big_obj.className == "고양이보은 고양이") {
                 char.src = "cat.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '고양이의보은 고양이' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'고양이의보은 고양이'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -138,7 +138,7 @@
             } else if (big_obj.className == "맹구") {
                 char.src = "mangu.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '맹구' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'맹구'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -149,7 +149,7 @@
             } else if (big_obj.className == "뮬란") {
                 char.src = "mulan.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '뮬란' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'뮬란'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -160,7 +160,7 @@
             } else if (big_obj.className == "백설공주") {
                 char.src = "apple.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '백설공주' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'백설공주'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -171,7 +171,7 @@
             } else if (big_obj.className == "세일러문 우라노스") {
                 char.src = "uranos.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '세일러문 우라노스' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'세일러문 우라노스'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -182,7 +182,7 @@
             } else if (big_obj.className == "인어공주") {
                 char.src = "mermaid.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '인어공주' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'인어공주'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -193,7 +193,7 @@
             } else if (big_obj.className == "주디") {
                 char.src = "judy.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '주디' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'주디'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>
@@ -204,7 +204,7 @@
             } else if (big_obj.className == "네오") {
                 char.src = "neo.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '네오' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'네오'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -215,7 +215,7 @@
             } else if (big_obj.className == "버즈") {
                 char.src = "buzz.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '버즈' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'버즈'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -226,7 +226,7 @@
             } else if (big_obj.className == "프로도") {
                 char.src = "prodo.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '프로도' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'프로도'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"><img class="star" src="star.png"></li>
@@ -237,7 +237,7 @@
             } else if (big_obj.className == "피카츄") {
                 char.src = "pikachu.png"
                 labelContainer.innerHTML = `
-                    <h2>닮은 캐릭터는 '피카츄' 입니다!</h2>
+                    <h2>닮은 캐릭터는 <span class="important_char">'피카츄'</span> 입니다!</h2>
                 `
                 char_description.innerHTML = `
                     <li><span>카리스마</span><img class="star" src="star.png"></li>

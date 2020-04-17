@@ -264,6 +264,13 @@ body {
 
 #label-container>h2 {
     margin: 0;
+    display: inline-block;
+    background-color: #FFF7E4;
+    padding: 4px 6px;
+}
+
+.important_char {
+    color: red;
 }
 
 @media(max-width:600px) {

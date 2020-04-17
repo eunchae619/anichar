@@ -26,11 +26,14 @@ function removeUpload() {
     $('.file-upload-input').replaceWith($('.file-upload-input').clone());
     $('.file-upload-content').hide();
     $('.image-upload-wrap').show();
+    const char_box = document.querySelector(".char_box")
+    char_box.classList.remove("char_box_loading")
+    char_box.classList.add("loader_off")
     labelContainer.innerHTML = ""
     var loader = document.querySelector(".loader")
     loader.classList.remove("loader_off")
-    var char = document.querySelector(".char")
-    char.classList.add("loader_off")
+    var loader_off = document.querySelector(".loader_off")
+    loader_off.classList.add("loader_off")
 }
 $('.image-upload-wrap').bind('dragover', function () {
     $('.image-upload-wrap').addClass('image-dropping');

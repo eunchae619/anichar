@@ -206,14 +206,67 @@ body {
 }
 
 .char {
-    max-height: 200px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .file-upload-image {
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .thumbnali {
     width: 3.5rem;
     height: 3.5rem;
+}
+
+.char_box_loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.char_description {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.char_description>li {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.char_description>li>span {
+    width: 70px;
+}
+
+.star {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 4px;
+}
+
+
+@media(max-width:600px) {
+    .char {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .file-upload-image {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .char_description {
+        font-size: 15px;
+    }
+
+    .star {
+        width: 17px;
+        height: 17px;
+    }
 }

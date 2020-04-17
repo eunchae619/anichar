@@ -207,26 +207,3 @@ body {
 }
 
 .file-upload-image {}
-
-header {
-    width: 100%;
-    height: 60px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    position: fixed;
-    top: 0;
-    background-color: white;
-    z-index: 999;
-}
-
-header>a {
-    color: black;
-    font-size: 20px;
-}
-
-header>a:hover {
-    color: black;
-    text-decoration-line: none;
-}

@@ -80,57 +80,57 @@
                     <h2>닮은 캐릭터는 '하울' 입니다!</h2>
                 `
             } else if (big_obj.className == "고양이보은 고양이") {
-                char.src = "howl.JPG"
+                char.src = "cat.png"
                 labelContainer.innerHTML = `
-                        <h2>닮은 캐릭터는 '고양이보은 고양이' 입니다!</h2>
+                        <h2>닮은 캐릭터는 '고양이의보은 고양이' 입니다!</h2>
                     `
             } else if (big_obj.className == "맹구") {
-                char.src = "howl.JPG"
+                char.src = "mangu.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '맹구' 입니다!</h2>
                     `
             } else if (big_obj.className == "뮬란") {
-                char.src = "howl.JPG"
+                char.src = "mulan.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '뮬란' 입니다!</h2>
                     `
             } else if (big_obj.className == "백설공주") {
-                char.src = "howl.JPG"
+                char.src = "apple.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '백설공주' 입니다!</h2>
                     `
             } else if (big_obj.className == "세일러문 우라노스") {
-                char.src = "howl.JPG"
+                char.src = "uranos.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '세일러문 우라노스' 입니다!</h2>
                     `
             } else if (big_obj.className == "인어공주") {
-                char.src = "howl.JPG"
+                char.src = "mermaid.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '인어공주' 입니다!</h2>
                     `
             } else if (big_obj.className == "주디") {
-                char.src = "howl.JPG"
+                char.src = "judy.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '주디' 입니다!</h2>
                     `
             } else if (big_obj.className == "네오") {
-                char.src = "howl.JPG"
+                char.src = "neo.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '네오' 입니다!</h2>
                     `
             } else if (big_obj.className == "버즈") {
-                char.src = "howl.JPG"
+                char.src = "buzz.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '버즈' 입니다!</h2>
                     `
             } else if (big_obj.className == "프로도") {
-                char.src = "howl.JPG"
+                char.src = "prodo.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '프로도' 입니다!</h2>
                     `
             } else if (big_obj.className == "피카츄") {
-                char.src = "howl.JPG"
+                char.src = "pikachu.png"
                 labelContainer.innerHTML = `
                         <h2>닮은 캐릭터는 '피카츄' 입니다!</h2>
                     `

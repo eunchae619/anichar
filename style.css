@@ -259,7 +259,7 @@ body {
 
 #label-container {
     margin-top: 10px;
-
+    width: 100%;
 }
 
 #label-container>h2 {

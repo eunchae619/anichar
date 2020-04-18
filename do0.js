@@ -29,7 +29,6 @@
             // predict can take in an image, video or canvas html element
             var image = document.getElementById("face-image")
             const prediction = await model.predict(image, false);
-            console.log(prediction)
             let big = prediction[0].probability
             let big_obj = prediction[0]
             let temp = 0;
@@ -46,7 +45,6 @@
             const char_description = document.querySelector(".char_description")
             char_box.classList.remove("loader_off")
             char_box.classList.add("char_box_loading")
-            console.log(big_obj)
             if (big_obj.className == "꼬부기") {
                 char.src = "ggobuk.png"
                 labelContainer.innerHTML = `

@@ -257,6 +257,13 @@ body {
     margin-bottom: 4px;
 }
 
+.kaf {
+    max-width: 100vw;
+    width: 320px;
+    margin: 0 auto;
+}
+
+
 #label-container {
     margin-top: 10px;
     width: 100%;
